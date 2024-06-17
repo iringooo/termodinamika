@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    background: rgb(136, 20, 39);
+}
+
+footer {
+    background: rgb(136, 20, 39);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    position: fixed;
+}
+
+footer p {
+    padding: 10px;
+}
+
+nav .menu {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 800px;
+}
+
+nav .menu li { 
+    margin: 0 10px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 125px;
+}
+/*.class {
+    align-items: center;
+}*/
+
+.szoveg .bev {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.szoveg {
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+.fizikusok {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.maxwell .switch, .boltzmann .switch, .clausius .switch, .gibbs .switch, .planck .switch{
+    display: none;
+}
+
+.fizikusok img {
+    
+    width: 300px;
+    position: relative;
+    z-index: 5;
+    
+}
+
+div.maxwell:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(136, 20, 39);
+    color: white;
+}
+div.maxwell .switch{
+    width: 275px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    margin: 20px;
+}
+div.maxwell .switch p{
+    margin: 3px;
+}
+div.maxwell:hover img{
+    opacity: 0.2;
+}
+
+div.boltzmann:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(136, 20, 39);
+    color: white;
+}
+div.boltzmann .switch{
+    width: 275px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    margin: 20px;
+}
+div.boltzmann .switch p{
+    margin: 3px;
+}
+div.boltzmann:hover img{
+    opacity: 0.2;
+}
+
+div.clausius:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(136, 20, 39);
+    color: white;
+}
+div.clausius .switch{
+    width: 275px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    margin: 20px;
+}
+div.clausius .switch p{
+    margin: 3px;
+}
+div.clausius:hover img{
+    opacity: 0.2;
+}
+
+div.gibbs:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(136, 20, 39);
+    color: white;
+}
+div.gibbs .switch{
+    width: 275px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    margin: 20px;
+}
+div.gibbs .switch p{
+    margin: 3px;
+}
+div.gibbs:hover img{
+    opacity: 0.2;
+}
+
+div.planck:hover {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgb(136, 20, 39);
+    color: white;
+}
+div.planck .switch{
+    width: 275px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left   ;
+    margin: 20px;
+}
+div.planck .switch p{
+    margin: 3px;
+}
+div.planck:hover img{
+    opacity: 0.2;
+}
